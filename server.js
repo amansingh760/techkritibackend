@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const multer = require('multer');
-const Registration = require('./Models/Registration');
+const Registration = require('./models/registration');
 require('dotenv').config();
 
 const app = express();
